@@ -1,0 +1,28 @@
+.cW{
+    width: 30rem;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: white;
+    /* From https://css.glass */
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 1rem;
+      display: flex;
+      
+}
+.leftSide{
+    color: white;
+    flex-basis: 16rem;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+}
+.rightSide{
+    flex-basis: 10rem;
+    text-align: center;
+    
+}
